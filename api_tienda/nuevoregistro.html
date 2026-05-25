@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - API Tienda Motociclistas</title>
+</head>
+<body>
+
+    <h1>API Tienda de Motociclistas</h1>
+    <h2>Registro de usuario</h2>
+
+    <p>Formulario de prueba para consumir el servicio web de registro.</p>
+
+    <form action="register.php" method="post">
+        <label>Usuario:</label><br>
+        <input type="text" name="usuario" required><br><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Nombres:</label><br>
+        <input type="text" name="nombres" required><br><br>
+
+        <label>Apellidos:</label><br>
+        <input type="text" name="apellidos" required><br><br>
+
+        <label>Celular:</label><br>
+        <input type="text" name="celular"><br><br>
+
+        <label>Rol:</label><br>
+        <select name="rol">
+            <option value="administrador">Administrador</option>
+            <option value="empleado">Empleado</option>
+        </select><br><br>
+
+        <button type="submit">Registrar usuario</button>
+    </form>
+
+    <br>
+
+    <a href="index.html">Volver al inicio de sesión</a>
+
+</body>
+</html>
